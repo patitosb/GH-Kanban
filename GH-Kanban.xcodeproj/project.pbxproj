@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		139B5DA2275F7A9A000E7E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B5DA1275F7A9A000E7E58 /* AppDelegate.swift */; };
+		139B5DA4275F7A9A000E7E58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B5DA3275F7A9A000E7E58 /* SceneDelegate.swift */; };
+		139B5DA6275F7A9A000E7E58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139B5DA5275F7A9A000E7E58 /* ViewController.swift */; };
+		139B5DA9275F7A9A000E7E58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139B5DA7275F7A9A000E7E58 /* Main.storyboard */; };
+		139B5DAC275F7A9A000E7E58 /* GH_Kanban.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 139B5DAA275F7A9A000E7E58 /* GH_Kanban.xcdatamodeld */; };
+		139B5DAE275F7A9B000E7E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 139B5DAD275F7A9B000E7E58 /* Assets.xcassets */; };
+		139B5DB1275F7A9B000E7E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139B5DAF275F7A9B000E7E58 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		139B5D9E275F7A9A000E7E58 /* GH-Kanban.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GH-Kanban.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		139B5DA1275F7A9A000E7E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		139B5DA3275F7A9A000E7E58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		139B5DA5275F7A9A000E7E58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		139B5DA8275F7A9A000E7E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		139B5DAB275F7A9A000E7E58 /* GH_Kanban.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GH_Kanban.xcdatamodel; sourceTree = "<group>"; };
+		139B5DAD275F7A9B000E7E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		139B5DB0275F7A9B000E7E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		139B5DB2275F7A9B000E7E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		139B5D9B275F7A9A000E7E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		139B5D95275F7A9A000E7E58 = {
+			isa = PBXGroup;
+			children = (
+				139B5DA0275F7A9A000E7E58 /* GH-Kanban */,
+				139B5D9F275F7A9A000E7E58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		139B5D9F275F7A9A000E7E58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				139B5D9E275F7A9A000E7E58 /* GH-Kanban.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		139B5DA0275F7A9A000E7E58 /* GH-Kanban */ = {
+			isa = PBXGroup;
+			children = (
+				139B5DA1275F7A9A000E7E58 /* AppDelegate.swift */,
+				139B5DA3275F7A9A000E7E58 /* SceneDelegate.swift */,
+				139B5DA5275F7A9A000E7E58 /* ViewController.swift */,
+				139B5DA7275F7A9A000E7E58 /* Main.storyboard */,
+				139B5DAD275F7A9B000E7E58 /* Assets.xcassets */,
+				139B5DAF275F7A9B000E7E58 /* LaunchScreen.storyboard */,
+				139B5DB2275F7A9B000E7E58 /* Info.plist */,
+				139B5DAA275F7A9A000E7E58 /* GH_Kanban.xcdatamodeld */,
+			);
+			path = "GH-Kanban";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		139B5D9D275F7A9A000E7E58 /* GH-Kanban */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 139B5DB5275F7A9B000E7E58 /* Build configuration list for PBXNativeTarget "GH-Kanban" */;
+			buildPhases = (
+				139B5D9A275F7A9A000E7E58 /* Sources */,
+				139B5D9B275F7A9A000E7E58 /* Frameworks */,
+				139B5D9C275F7A9A000E7E58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GH-Kanban";
+			productName = "GH-Kanban";
+			productReference = 139B5D9E275F7A9A000E7E58 /* GH-Kanban.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		139B5D96275F7A9A000E7E58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					139B5D9D275F7A9A000E7E58 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 139B5D99275F7A9A000E7E58 /* Build configuration list for PBXProject "GH-Kanban" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 139B5D95275F7A9A000E7E58;
+			productRefGroup = 139B5D9F275F7A9A000E7E58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				139B5D9D275F7A9A000E7E58 /* GH-Kanban */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		139B5D9C275F7A9A000E7E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139B5DB1275F7A9B000E7E58 /* LaunchScreen.storyboard in Resources */,
+				139B5DAE275F7A9B000E7E58 /* Assets.xcassets in Resources */,
+				139B5DA9275F7A9A000E7E58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		139B5D9A275F7A9A000E7E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				139B5DA6275F7A9A000E7E58 /* ViewController.swift in Sources */,
+				139B5DA2275F7A9A000E7E58 /* AppDelegate.swift in Sources */,
+				139B5DA4275F7A9A000E7E58 /* SceneDelegate.swift in Sources */,
+				139B5DAC275F7A9A000E7E58 /* GH_Kanban.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		139B5DA7275F7A9A000E7E58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139B5DA8275F7A9A000E7E58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		139B5DAF275F7A9B000E7E58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				139B5DB0275F7A9B000E7E58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		139B5DB3275F7A9B000E7E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		139B5DB4275F7A9B000E7E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		139B5DB6275F7A9B000E7E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAU6T93J2C;
+				INFOPLIST_FILE = "GH-Kanban/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GH-Kanban";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		139B5DB7275F7A9B000E7E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VAU6T93J2C;
+				INFOPLIST_FILE = "GH-Kanban/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.GH-Kanban";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		139B5D99275F7A9A000E7E58 /* Build configuration list for PBXProject "GH-Kanban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139B5DB3275F7A9B000E7E58 /* Debug */,
+				139B5DB4275F7A9B000E7E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		139B5DB5275F7A9B000E7E58 /* Build configuration list for PBXNativeTarget "GH-Kanban" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139B5DB6275F7A9B000E7E58 /* Debug */,
+				139B5DB7275F7A9B000E7E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		139B5DAA275F7A9A000E7E58 /* GH_Kanban.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				139B5DAB275F7A9A000E7E58 /* GH_Kanban.xcdatamodel */,
+			);
+			currentVersion = 139B5DAB275F7A9A000E7E58 /* GH_Kanban.xcdatamodel */;
+			path = GH_Kanban.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 139B5D96275F7A9A000E7E58 /* Project object */;
+}
